@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    line-height: 50px;
+    background-color: #703084;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    margin-left: 15px;
+    color: #ffd430;
+}
+
+.formulaire {
+    margin-right: 15px;
+}
+
+.champ {
+    width: 200px;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 5px;
+}
+
+.bouton {
+    width: 90px;
+    background-color: #703084;
+    border: 1px #ffd430 solid;
+    color: #ffd430;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    background-color: #703084;
+    border: 1px #ffd430 solid;
+    color: #ffd430;
+    font-family: 'Rubik', sans-serif;
+}
+
+#meubles {
+    position: absolute;
+    display: none;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    max-width: 600px;
+}
+
+#diver {
+    position: absolute;
+    display: none;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    max-width: 600px;
+}
+
+#lingerie {
+    position: absolute;
+    display: none;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    max-width: 600px;
+}
+
+#lingerie h2 {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.classification {
+    width: 275px;
+}
+
+.categorie {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+label {
+    width: 150px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.estimation {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub {
+    height: 35px;
+    width: 100px;
+    float: right;
+    margin-top: 20px;
+    background-color: #703084;
+    border: 1px #ffd430 solid;
+    color: #ffd430;
+}
+
+
+/* ARTICLE */
+.divers{
+    margin: 15px;
+    border: 1px black solid;
+}
+
+.profil{
+    width: 260px;
+}
+
+#electro{
+    width: 450px;
+    display: flex;
+}
+
+.table{
+    display: flex;
+    justify-content: space-around;
+}
+
+.extension{
+    width: 125px;
+}
+
+.secteur{
+margin-bottom: 30px;
+}
+
+#deco{
+    width: 450px;
+    display: flex;
+    border: 1px red solid;
+}
+
+#vaiselle{
+    width: 450px;
+    display: flex;
+    border: 1px blue solid;
+}
+
+#sport{
+    width: 450px;
+    display: flex;
+    border: 1px red solid;
+}
+
+.photo{
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+.responsable{
+    width: 650px;
+    height: 540px;
+    margin-top: 50px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #703084;
+}
+
+h3{
+margin-bottom: 25px;
+text-align: center;
+color: white;
+height: 50px;
+line-height: 50px;
+}
+
+.center{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.mainContainer{
+    margin-top: 50px;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+}
+
+.avatar{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.button{
+    width: 250px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    background-color: #ffd430;
+    border: none;
+}
+
+.conex{
+    width: 200px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    border: none;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
