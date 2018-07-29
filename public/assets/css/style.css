@@ -88,63 +88,92 @@ line-height: 50px;
                         PAGE DE REDIRECTION
 *********************************************************************/
 
-.navigation {
-    display: flex;
-    justify-content: space-between;
-    height: 50px;
-    line-height: 50px;
-    background-color: #703084;
-    color: white;
-    font-family: 'Rubik', sans-serif;
-}
-
-h1 {
-    margin-left: 15px;
-    color: #ffd430;
-}
-
-.formulaire {
-    margin-right: 15px;
-}
-
-.champ {
-    width: 200px;
-    font-family: 'Rubik', sans-serif;
-    padding-left: 5px;
-}
-
-.bouton {
-    width: 90px;
-    background-color: #703084;
-    border: 1px #ffd430 solid;
-    color: #ffd430;
-    font-family: 'Rubik', sans-serif;
-}
-
-.container {
-    margin-top: 30px;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-.section {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-}
-
-.button-catalogue {
-    width: 200px;
+.departements{
+    margin: 10px;
     height: 40px;
-    background-color: #703084;
-    border: none;
+    font-size: 20px;
     color: #ffd430;
-    font-family: 'Rubik', sans-serif;
 }
 
-.button-catalogue:hover{
-    background-color: #ffd430;
+
+nav > ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+nav > ul > li{
+    float: left;
+    position: relative;
+}
+
+nav > ul  > li > a{
+    padding: 20px 30px;
     color: #703084;
+}
+
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav li{
+    list-style-type: none;
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: #703084;
+}
+
+nav li:hover .submenu{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 100000;
+}
+
+.submenu{
+    display: none;
+}
+
+.submenu li{
+    border-bottom: 1px solid #ccc;
+    font-size: 20px;
+    color: #ffd430;
+    width: 150px;
+}
+
+.departements:hover{
+border-top: 5px solid #703084;
+}
+
+nav > ul> li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+
+.departements .submenu{
+    background-color: #703084;
+}
+
+.submenu li:hover a {
+    color: #703084;
+    font-weight: bold;
+}
+
+.departements .submenu li:hover{
+background-color: #ffd430;
+color: #703084;
 }
 
 
@@ -190,12 +219,12 @@ text-align: center;
 }
 
 .imgFiche{
-    width: 250px;
+    width: 290px;
 }
 
 .fiche{
-    width: 380px;
-    height: 350px;
+    width: 390px;
+    height: 390px;
     display: flex;
     flex-direction: column;
     background-color: #703084;
@@ -275,3 +304,37 @@ text-align: center;
     display: flex;
     justify-content: space-around;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
