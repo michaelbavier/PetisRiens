@@ -61,6 +61,18 @@ line-height: 50px;
     border: none;
 }
 
+.button:hover{
+    background-color: #703084;
+    color: #ffd430;
+    border: 1px #ffd430 solid;
+}
+
+.bouton:hover{
+    background-color: #ffd430;
+    color: #703084;
+    border: 1px #703084 solid;
+}
+
 .conex{
     width: 200px;
     height: 30px;
@@ -125,9 +137,14 @@ h1 {
     width: 200px;
     height: 40px;
     background-color: #703084;
-    border: 1px #ffd430 solid;
+    border: none;
     color: #ffd430;
     font-family: 'Rubik', sans-serif;
+}
+
+.button-catalogue:hover{
+    background-color: #ffd430;
+    color: #703084;
 }
 
 
@@ -163,8 +180,13 @@ text-align: center;
 
 
 .deco{
+    max-width: 100%;
     margin: 15px;
     font-family: 'Rubik', sans-serif;
+}
+.titre{
+    margin: 15px;
+    margin-bottom: 35px;
 }
 
 .imgFiche{
@@ -205,6 +227,23 @@ text-align: center;
     flex-direction: column;
 }
 
+.commentaire h4{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.commentaires{
+    height: 80px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    line-height: 80px;
+    border: 1px #ffd430 solid;
+    font-family: 'Rubik', sans-serif;
+}
+
 .btn-commentaire{
     text-align: center;
     margin-top: 15px;
@@ -213,6 +252,12 @@ text-align: center;
     background-color: #703084;
     color: #ffd430;
     border: 1px #ffd430 solid;
+}
+
+.btn-commentaire:hover{
+    background-color: #ffd430;
+    color: #703084;
+    border: 1px #703084 solid;
 }
 
 .envois{
@@ -226,8 +271,7 @@ text-align: center;
     margin-bottom: 6px;
 }
 
-textarea{
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
+.align{
+    display: flex;
+    justify-content: space-around;
 }
