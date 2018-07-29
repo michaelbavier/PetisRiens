@@ -219,12 +219,14 @@ text-align: center;
 }
 
 .imgFiche{
-    width: 290px;
+    width: 120px;
+    height: 120px;
+    margin-left: 5px;
 }
 
 .fiche{
-    width: 390px;
-    height: 390px;
+    width: 320px;
+    height: 340px;
     display: flex;
     flex-direction: column;
     background-color: #703084;
@@ -234,15 +236,13 @@ text-align: center;
 }
 
 .text{
-    width: 100%;
     display: flex;
     flex-direction: column;
     margin-left: 10px;
 }
 
 .text p{
-    margin-bottom: 20px;
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .produit{
@@ -251,14 +251,13 @@ text-align: center;
 }
 
 .commentaire{
-    margin-top: 15px;
     display: flex;
     flex-direction: column;
 }
 
 .commentaire h4{
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .commentaires{
@@ -275,7 +274,7 @@ text-align: center;
 
 .btn-commentaire{
     text-align: center;
-    margin-top: 15px;
+    margin-top: 7px;
     width: 150px;
     height: 40px;
     background-color: #703084;
