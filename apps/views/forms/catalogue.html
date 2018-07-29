@@ -5,18 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./public/assets/css/style.css">
+    <link rel="stylesheet" href="../../../public/assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
     <script src="./public/assets/js/animation.js"></script>
     <title>Petit Rien</title>
 </head>
 
 <body>
-
-
-    <div class="main-container">
         <nav class="navigation">
-            <h1>Catalogue Petits Riens</h1>
+            <h1>Les departements</h1>
             <form action="" class="formulaire">
                 <input class="champ" type="text" value="Search...">
                 <input class="bouton" type="button" value="Rechercher">
@@ -26,192 +23,22 @@
         <div class="container">
             <ul class="section">
                 <li>
-                    <button onclick="espaceMeuble()">Meuble</button>
+                  <a href="meuble.html"><button class="button-catalogue">Meuble</button></a>
                 </li>
                 <li>
-                    <button>Baby Paradise</button>
+                <a href="babyparadise.html"><button class="button-catalogue">Baby Paradise</button></a>
                 </li>
                 <li>
-                    <button onclick="espaceDivers()">Divers</button>
+                    <a href="divers.html"><button class="button-catalogue">Divers</button></a>
                 </li>
                 <li>
-                    <button>Librairie</button>
+                    <a href="librairie.html"><button class="button-catalogue">Librairie</button></a>
                 </li>
                 <li>
-                    <button onclick="espaceLingerie()">Lingerie</button>
+                    <a href="lingerie.html"><button class="button-catalogue">Lingerie</button></a>
                 </li>
             </ul>
         </div>
-
-
-        <h2>Descriptif de la marchandise</h2>
-        <!--*************************************************************************************************************************************************************************** 
-                                                                                         MEUBLES
-******************************************************************************************************************************************************************************-->
-
-        <div id="meubles">
-            <section class="meuble">
-                <form action="" class="classification">
-                    <ul>
-                        <li class="categorie">
-                            <label for="">Buffet</label>
-                            <input type="checkbox" name="buffet" id="">
-                        </li>
-
-                        <li class="categorie">
-                            <label for="">Table à manger</label>
-                            <input type="checkbox" name="" id="">
-                        </li>
-
-                        <li class="categorie">
-                            <label for="">Chaisse</label>
-                            <input type="checkbox" name="" id="">
-                        </li>
-
-                        <li class="categorie">
-                            <label for="">Salon</label>
-                            <input type="checkbox" name="" id="">
-                        </li>
-                    </ul>
-                </form>
-            </section>
-
-            <section class="global">
-                <form action="" class="estimation">
-                    <ul>
-                        <li class="categorie">
-                            <label for="">Composition</label>
-                            <input type="text">
-                        </li>
-                        <li class="categorie">
-                            <label for="">Marque</label>
-                            <input type="text" name="" id="">
-                        </li>
-                        <li class="categorie">
-                            <label for="">Prix</label>
-                            <input type="text">
-                        </li>
-                        <label for="">Image</label>
-                        <input type="file">
-                    </ul>
-                </form>
-                <input type="submit" class="sub">
-            </section>
-        </div>
-
-
-        <!--*************************************************************************************************************************************************************************** 
-                                                                                         DIVERS
-******************************************************************************************************************************************************************************-->
-
-        <div id="diver">
-            <section class="divers">
-                <form action="" class="classification">
-                    <ul>
-                        <li class="categorie">
-                            <label for="">Deco</label>
-                            <input type="checkbox" name="buffet" id="">
-                        </li>
-
-                        <li class="categorie">
-                            <label for="">Cuisine</label>
-                            <input type="checkbox" name="" id="">
-                        </li>
-
-                        <li class="categorie">
-                            <label for="">Electro</label>
-                            <input type="checkbox" name="" id="">
-                        </li>
-
-                        <li class="categorie">
-                            <label for="">Sport</label>
-                            <input type="checkbox" name="" id="">
-                        </li>
-                    </ul>
-                </form>
-            </section>
-
-            <section class="global">
-                <form action="" class="estimation">
-                    <ul>
-                        <li class="categorie">
-                            <label for="">Composition</label>
-                            <input type="text">
-                        </li>
-                        <li class="categorie">
-                            <label for="">Marque</label>
-                            <input type="text" name="" id="">
-                        </li>
-                        <li class="categorie">
-                            <label for="">Prix</label>
-                            <input type="text">
-                        </li>
-                        <label for="">Image</label>
-                        <input type="file">
-                    </ul>
-                </form>
-                <input type="submit" class="sub">
-            </section>
-
-        </div>
-
-
-        <!--*************************************************************************************************************************************************************************** 
-                                                                                      Lingerie
-******************************************************************************************************************************************************************************-->
-
-
-        <div id="lingerie">
-            <section class="lingeries">
-                <form action="" class="classification">
-                    <ul>
-                        <li class="categorie">
-                            <label for="">T-shirt</label>
-                            <input type="checkbox" name="buffet" id="">
-                        </li>
-
-                        <li class="categorie">
-                            <label for="">Pull</label>
-                            <input type="checkbox" name="" id="">
-                        </li>
-
-                        <li class="categorie">
-                            <label for="">Pantalon</label>
-                            <input type="checkbox" name="" id="">
-                        </li>
-
-                        <li class="categorie">
-                            <label for="">Robe</label>
-                            <input type="checkbox" name="" id="">
-                        </li>
-                    </ul>
-                </form>
-            </section>
-
-            <section class="global">
-                <form action="" class="estimation">
-                    <ul>
-                        <li class="categorie">
-                            <label for="">Composition</label>
-                            <input type="text">
-                        </li>
-                        <li class="categorie">
-                            <label for="">Marque</label>
-                            <input type="text" name="" id="">
-                        </li>
-                        <li class="categorie">
-                            <label for="">Prix</label>
-                            <input type="text">
-                        </li>
-                        <label for="">Image</label>
-                        <input type="file">
-                    </ul>
-                </form>
-                <input type="submit" class="sub">
-            </section>
-
-        </div>
-    </div>
 
 </body>
 
