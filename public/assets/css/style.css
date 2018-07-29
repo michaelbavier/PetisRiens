@@ -3,181 +3,9 @@
     padding: 0;
 }
 
-.navigation {
-    display: flex;
-    justify-content: space-between;
-    height: 50px;
-    line-height: 50px;
-    background-color: #703084;
-    color: white;
-    font-family: 'Rubik', sans-serif;
-}
-
-h1 {
-    margin-left: 15px;
-    color: #ffd430;
-}
-
-.formulaire {
-    margin-right: 15px;
-}
-
-.champ {
-    width: 200px;
-    font-family: 'Rubik', sans-serif;
-    padding-left: 5px;
-}
-
-.bouton {
-    width: 90px;
-    background-color: #703084;
-    border: 1px #ffd430 solid;
-    color: #ffd430;
-    font-family: 'Rubik', sans-serif;
-}
-
-.container {
-    margin-top: 30px;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-.section {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-}
-
-button {
-    width: 200px;
-    height: 40px;
-    background-color: #703084;
-    border: 1px #ffd430 solid;
-    color: #ffd430;
-    font-family: 'Rubik', sans-serif;
-}
-
-#meubles {
-    position: absolute;
-    display: none;
-    margin-top: 50px;
-    margin-left: 15px;
-    margin-right: 15px;
-    max-width: 600px;
-}
-
-#diver {
-    position: absolute;
-    display: none;
-    margin-top: 50px;
-    margin-left: 15px;
-    margin-right: 15px;
-    max-width: 600px;
-}
-
-#lingerie {
-    position: absolute;
-    display: none;
-    margin-top: 50px;
-    margin-left: 15px;
-    margin-right: 15px;
-    max-width: 600px;
-}
-
-#lingerie h2 {
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 15px;
-    font-family: 'Rubik', sans-serif;
-}
-
-.classification {
-    width: 275px;
-}
-
-.categorie {
-    display: flex;
-    margin-bottom: 10px;
-}
-
-label {
-    width: 150px;
-    font-family: 'Rubik', sans-serif;
-}
-
-.estimation {
-    display: flex;
-    flex-direction: column;
-}
-
-.sub {
-    height: 35px;
-    width: 100px;
-    float: right;
-    margin-top: 20px;
-    background-color: #703084;
-    border: 1px #ffd430 solid;
-    color: #ffd430;
-}
-
-
-/* ARTICLE */
-.divers{
-    margin: 15px;
-    border: 1px black solid;
-}
-
-.profil{
-    width: 260px;
-}
-
-#electro{
-    width: 450px;
-    display: flex;
-}
-
-.table{
-    display: flex;
-    justify-content: space-around;
-}
-
-.extension{
-    width: 125px;
-}
-
-.secteur{
-margin-bottom: 30px;
-}
-
-#deco{
-    width: 450px;
-    display: flex;
-    border: 1px red solid;
-}
-
-#vaiselle{
-    width: 450px;
-    display: flex;
-    border: 1px blue solid;
-}
-
-#sport{
-    width: 450px;
-    display: flex;
-    border: 1px red solid;
-}
-
-.photo{
-    width: 200px;
-}
-
-
-
-
-
-
-
-
+/*************************************************************************
+                            PAGE DE CONNECTION
+**************************************************************************/
 .responsable{
     width: 650px;
     height: 540px;
@@ -243,4 +71,163 @@ line-height: 50px;
     padding: 3px;
     padding-left: 15px;
     padding-right: 15px;
+}
+/********************************************************************
+                        PAGE DE REDIRECTION
+*********************************************************************/
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    line-height: 50px;
+    background-color: #703084;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    margin-left: 15px;
+    color: #ffd430;
+}
+
+.formulaire {
+    margin-right: 15px;
+}
+
+.champ {
+    width: 200px;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 5px;
+}
+
+.bouton {
+    width: 90px;
+    background-color: #703084;
+    border: 1px #ffd430 solid;
+    color: #ffd430;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.button-catalogue {
+    width: 200px;
+    height: 40px;
+    background-color: #703084;
+    border: 1px #ffd430 solid;
+    color: #ffd430;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+/********************************************************
+                    SERVIE DIVERS
+*********************************************************/
+
+.nav-divers{
+    background-color: #703084;
+    border: 1px red solid;
+}
+
+.cataloge-divers{
+    margin-top: 50px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border: 1px black solid;
+}
+
+.cata{
+    height: 70px;
+    width: 200px;
+    margin-bottom: 25px;
+    background-color: #703084;
+    color: #ffd430;
+}
+
+.nom-divers{
+line-height: 70px;
+text-align: center;
+}
+
+
+.deco{
+    margin: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.imgFiche{
+    width: 250px;
+}
+
+.fiche{
+    width: 380px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: #703084;
+    color: #ffd430;
+    border: 1px #703084 solid;
+    font-family: 'Rubik', sans-serif;
+}
+
+.text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.text p{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.produit{
+    display: flex;
+    justify-content: space-around;
+}
+
+.commentaire{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-commentaire{
+    text-align: center;
+    margin-top: 15px;
+    width: 150px;
+    height: 40px;
+    background-color: #703084;
+    color: #ffd430;
+    border: 1px #ffd430 solid;
+}
+
+.envois{
+    display: flex;
+    justify-content: space-around;
+    border: none;
+}
+
+.com{
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+textarea{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
