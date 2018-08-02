@@ -6,17 +6,25 @@
 /*************************************************************************
                             PAGE DE CONNECTION
 **************************************************************************/
-.responsable{
-    width: 650px;
-    height: 540px;
-    margin-top: 50px;
+.mainContainer{
+    max-width: 650px;
     margin: 0 auto;
+}
+
+
+.responsable{
+    height: 540px;
     text-align: center;
     background-color: #703084;
 }
 
+@media screen and (max-width: 320px){
+    .mainContainer{
+        position: fixed;
+    }
+}
 .nom-acceuil{
-    margin-bottom: 20px;
+    margin: 15px;
     font-size: x-large;
     color: #ffd430;
     font-family: 'Rubik', sans-serif;
@@ -31,20 +39,12 @@
     margin-bottom: 15px;
 }
 
-.mainContainer{
-    margin-top: 50px;
-    width: 650px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .login{
     display: flex;
     flex-direction: column;
     width: 260px;
     height: 230px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
 }
 
 .avatar{
@@ -186,7 +186,6 @@ color: #703084;
 
 .nav-divers{
     background-color: #703084;
-    border: 1px red solid;
 }
 
 .cataloge-divers{
@@ -194,7 +193,6 @@ color: #703084;
     max-width: 100%;
     display: flex;
     justify-content: space-around;
-    border: 1px black solid;
 }
 
 .cata{
@@ -206,16 +204,63 @@ color: #703084;
 }
 
 .nom-divers{
-line-height: 70px;
-text-align: center;
+    line-height: 70px;
+    text-align: center;
 }
 
 
 .deco{
-    max-width: 100%;
     margin: 15px;
     font-family: 'Rubik', sans-serif;
 }
+
+@media screen and (max-width: 320px){
+    .colum{
+        display: block;
+        flex-direction: column;
+        margin-bottom: 25px;
+        width: 286px;
+    }
+}
+
+@media screen and (min-width:450px) and (max-width:480px){
+    .colum{
+        display: block;
+        flex-direction: column;
+        margin-bottom: 25px;
+        width:320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width:620px) and (max-width:640px){
+    .colum{
+        display: block;
+        flex-direction: column;
+        margin-bottom: 25px;
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width:920px) and (max-width:980px){
+    .colum{
+        display: block;
+        flex-direction: column;
+        margin-bottom: 25px;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.colum{
+    display: flex;
+    justify-content: space-around;
+}
+
 .titre{
     margin: 15px;
     margin-bottom: 35px;
@@ -228,14 +273,17 @@ text-align: center;
 }
 
 .fiche{
-    width: 320px;
-    height: 350px;
     display: flex;
     flex-direction: column;
     background-color: #703084;
     color: #ffd430;
     border-radius: 10px;
     font-family: 'Rubik', sans-serif;
+}
+
+ficheObjet{
+    width: 320px;
+    height: 350px;
 }
 
 .text{
@@ -321,18 +369,50 @@ text-align: center;
 ************************************************/
 
 .cont{
-    max-width: 800px;
+    width:500px;
     display: flex;
-    justify-content: space-around;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+@media screen and (max-width:320px) {
+    .cont{
+        width: 310px;
+        display: block;
+        flex-direction: column;
+    }
+        .formulaireMarchandise{
+        width: 310px;
+    }
+
+    texterea{
+        width: 250px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and(max-width:480px){
+    .cont{
+        width: 450px;
+    }
+
+    .formulaireMarchandise{
+        width: 310px;
+    }
+}
+
+@media screen and (max-width:640px){
+    .cont{
+        width: 509px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
 .groupeOne{
-    max-width: 500px;
+    width: 150px;
     margin: 15px;
-    display: flex;
-    justify-content: space-around;
+    border: 1px red solid;
 }
 
 .secteurOne{
@@ -389,6 +469,8 @@ border: 1px #703084 solid;
 
 textarea{
     height: 90px;
+    width: 250px;
+    margin: 0 auto;
 }
 
 .btnEnvoyer{
